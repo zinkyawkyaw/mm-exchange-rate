@@ -1,0 +1,29 @@
+{
+  "name": "mm-exchange",
+  "version": "1.0.0",
+  "description": "Myanmar Currency Exchange Rate",
+  "main": "dist/mmExchange.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinkyawkyaw/mm-exchange-rate.git"
+  },
+  "keywords": [
+    "Myanmar",
+    "Currency",
+    "Exchange",
+    "Rate"
+  ],
+  "author": "Zin Kyaw Kyaw (AJ)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zinkyawkyaw/mm-exchange-rate/issues"
+  },
+  "homepage": "https://github.com/zinkyawkyaw/mm-exchange-rate#readme",
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "moment": "^2.24.0"
+  }
+}
