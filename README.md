@@ -5,7 +5,11 @@
 
 ## Usage
 
-```const exchange = require('./dist/mmExchange');```
+### Require axios
+
+`npm install axios --save`
+
+```const exchange = require('mm-exchange');```
 
 ```
 exchange.allInKyat((res)=>{
