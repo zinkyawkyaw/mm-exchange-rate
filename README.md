@@ -7,13 +7,17 @@
 
 ```const exchange = require('./dist/mmExchange');```
 
-```exchange.allInKyat((res)=>{
+```
+exchange.allInKyat((res)=>{
     console.log(res);
-}, $DATE )```
+}, $DATE )
+```
 
-```exchange.get( $CURRENCY_CODE ,(res)=>{
+```
+xchange.get( $CURRENCY_CODE ,(res)=>{
     console.log(res);
-}, $DATE )```
+}, $DATE )
+```
 
 - allInKyats function will give all output in Kyats 
 - get function will give base on 1 $CURRENCY_CODE
