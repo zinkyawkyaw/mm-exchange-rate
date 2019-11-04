@@ -8,6 +8,7 @@
 ### Require axios
 
 `npm install axios --save`
+`npm install mm-exchange --save`
 
 ```const exchange = require('mm-exchange');```
 
