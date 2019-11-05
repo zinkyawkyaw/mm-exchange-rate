@@ -1,6 +1,6 @@
 # Myanmar Exchange Rate (CB Bank)
 
-- for More Detail [https://forex.cbm.gov.mm/index.php/api]
+- for More Detail https://forex.cbm.gov.mm/index.php/api
 
 
 ## Usage
