@@ -8,6 +8,7 @@
 ### Require axios
 
 ```npm install axios --save```
+
 ```npm install xchg --save```
 
 ```const xchg = require('xchg');```
