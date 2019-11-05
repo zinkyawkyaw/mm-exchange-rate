@@ -34,7 +34,7 @@ app.allInKyat = async (callback , date = 'today')=>{
     }
 }
 
-app.get = (curr = 'USD' , callback , date )=>{
+app.rate = (curr = 'USD' , callback , date )=>{
     if(curr == null || curr == ''){
         curr = 'USD';
     }

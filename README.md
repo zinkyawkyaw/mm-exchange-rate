@@ -20,13 +20,13 @@ xchg.allInKyat((res)=>{
 ```
 
 ```
-xchg.get( $CURRENCY_CODE ,(res)=>{
+xchg.rate( $CURRENCY_CODE ,(res)=>{
     console.log(res);
 }, $DATE )
 ```
 
 ```
-xchg.get( $CURRENCY_CODE ,(res)=>{
+xchg.rate( $CURRENCY_CODE ,(res)=>{
     console.log(res);
 }) //latest rate
 ```
