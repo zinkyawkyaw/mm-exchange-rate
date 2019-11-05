@@ -1,7 +1,7 @@
 {
-  "name": "mm-exchange",
-  "version": "1.0.0",
-  "description": "Myanmar Currency Exchange Rate",
+  "name": "xchg",
+  "version": "1.0.1",
+  "description": "Currency Exchange Rate (CB Bank)",
   "main": "dist/mmExchange.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

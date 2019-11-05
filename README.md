@@ -8,25 +8,31 @@
 ### Require axios
 
 `npm install axios --save`
-`npm install mm-exchange --save`
+`npm install xchg --save`
 
-```const exchange = require('mm-exchange');```
+```const xchg = require('xchg');```
 
 ```
-exchange.allInKyat((res)=>{
+xchg.allInKyat((res)=>{
     console.log(res);
 }, $DATE )
 ```
 
 ```
-xchange.get( $CURRENCY_CODE ,(res)=>{
+xchg.get( $CURRENCY_CODE ,(res)=>{
     console.log(res);
 }, $DATE )
 ```
 
-- allInKyats function will give all output in Kyats 
+```
+xchg.get( $CURRENCY_CODE ,(res)=>{
+    console.log(res);
+}) //latest rate
+```
+
+- allInKyats function will give all results in Kyats 
 - get function will give base on 1 $CURRENCY_CODE
 
 - $DATE can be empty or (DD-MM-YYYY) 
-- $DATE empty value will get today Exchange Rate
-- $CURRENCY_CODE , Example - 'USD' , 'MMK' , 'SGD' ( it will give output base on 1 )
+- $DATE empty || null  value will get today Exchange Rate
+- $CURRENCY_CODE , Example - 'USD' , 'MMK' , 'SGD' ( it will give results base on 1 )
